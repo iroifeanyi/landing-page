@@ -149,15 +149,27 @@ h1 {
       display: block;
       text-align: left;
     }
-    #pricing {
+    .advet {
+        width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 40px;
+    }
+    .main {
+        padding-top: 300px;
+        position: relative;
+        opacity: 10;
+    }
+    .pricing {
         flex-direction: column;
     }
     .product {
-        max-width: 300px;
-        width: 100%;
+        max-width: 100%;
+        width: 70%;
         margin: 0 auto;
-        margin-bottom: 10px;
-        flex-direction: column;
+        margin-bottom: 20px;
+        align-items: center;
     }
     .header-right {
     margin-top: 10px;
